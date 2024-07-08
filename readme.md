@@ -97,7 +97,7 @@ The following instructions are meant for installations without a web server or r
     --publish 8443:8443 \
     --volume nextcloud_aio_mastercontainer:/mnt/docker-aio-config \
     --volume /run/podman/podman.sock:/var/run/docker.sock:ro \
-    nextcloud/all-in-one:latest
+    docker.io/nextcloud/all-in-one:latest
     ```
     <details>
     <summary>Explanation of the command</summary>
